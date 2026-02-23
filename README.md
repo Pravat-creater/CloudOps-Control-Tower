@@ -3,7 +3,6 @@ Multi-Cloud Monitoring; Automated Incident Response System
 # CloudOps Control Tower  
 ### Multi-Cloud Reliability, Monitoring & Incident Response Engine (AWS + Azure)
 
----
 
 ## Project Overview
 
@@ -16,7 +15,6 @@ The system monitors cloud virtual machines hosted on:
 - Amazon Web Services (EC2 – Ubuntu)
 - Microsoft Azure (Virtual Machine – Ubuntu)
 
----
 
 ## Problem Statement
 
@@ -35,7 +33,7 @@ This project solves that problem by implementing:
 
 > A proactive, automated, multi-cloud monitoring and self-healing framework.
 
----
+
 
 ## Architecture Overview
 
@@ -53,7 +51,7 @@ Architecture Components:
 - Security Compliance Scanner
 - Daily Executive Report Generator
 
----
+
 
 ## Core Features
 
@@ -63,7 +61,7 @@ Architecture Components:
 - Disk Space Monitoring
 - Web Server Status Check (Nginx)
 
----
+
 
 ### 2. Threshold-Based Incident Detection
 
@@ -80,7 +78,7 @@ Incidents are classified into:
 - High
 - Critical
 
----
+
 
 ###  3. Self-Healing Automation
 - Automatically restarts failed Nginx service
@@ -90,14 +88,14 @@ Incidents are classified into:
 
 This reduces simulated MTTR (Mean Time To Repair).
 
----
+
 
 ###  4. Cost Optimization Detection
 - Detects low CPU utilization (<10%) over extended duration
 - Identifies underutilized instances
 - Generates optimization recommendations
 
----
+
 
 ### 5. Security Compliance Scanner
 Checks for:
@@ -106,7 +104,7 @@ Checks for:
 - Logging status
 - Backup presence (manual validation)
 
----
+
 
 ### 6. Incident Logging (ITIL-Style)
 
@@ -121,7 +119,7 @@ Auto-Remediation: Restarted nginx
 Final Status: Resolved  
 Timestamp: 14-02-2026 18:30 IST  
 
----
+
 
 ### 7. Daily Executive Report
 
@@ -134,7 +132,7 @@ Security Alerts: 2
 Cost Optimization Suggestions: 3  
 System Health Score: 92%  
 
----
+
 
 ##  Cloud Environment Setup
 
@@ -148,7 +146,7 @@ System Health Score: 92%
 - Configured Network Security Group
 - Installed Nginx
 
----
+
 
 ##  Automation Mechanism
 
@@ -158,7 +156,7 @@ Monitoring script is scheduled using Cron:
 
 This ensures continuous monitoring every 5 minutes without manual intervention.
 
----
+
 
 ##  Technologies Used
 
@@ -171,28 +169,9 @@ This ensures continuous monitoring every 5 minutes without manual intervention.
 - Azure Virtual Machine
 - GitHub
 
----
 
-##  Project Structure
 
-CloudOps-Control-Tower/
-│
-├── monitor.py
-├── incident_logger.py
-├── security_scanner.py
-├── cost_optimizer.py
-├── daily_report.py
-│
-├── outputs/
-│   ├── sample_incident.txt
-│   └── sample_report.txt
-│
-├── architecture.png
-├── aws_vm.png
-├── azure_vm.png
-├── script_running.png
-├── SOP.pdf
-└── README.md
+
 
 ---
 
